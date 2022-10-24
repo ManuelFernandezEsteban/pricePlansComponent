@@ -33,15 +33,20 @@
 ::before {
     box-sizing: border-box;
 }
-
 body{
     width: 100vh;
+    height: 100vw;
+}
+
+.container-cards{
+    width: 100vw;
     height: 100vh;
     background-color: #E5E5E5;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    gap: 16px;
 }
 
 .ff-text {
@@ -104,21 +109,35 @@ body{
     background-color: var(--clr-white);
 }
 
-
-
-
-.card-free{
-    padding: 16px;
+.card{
     display: flex;
     flex-direction: column;
     width: 284.33px;
-    height: 476px;
-    background-color: var(--clr-white);
-    border-color: var(--clr-border);
-    border: 1px solid var(--clr-border);
     border-radius: 8px;
     gap: 16px;
 }
+.free{
+    padding: 16px;      
+    background-color: var(--clr-white);   
+    border: 1px solid var(--clr-border);  
+    color: var(--clr-secondary);  
+}
+.pro{
+    padding: 40px;
+    background-color: var(--clr-primary);   
+    border: 2px solid var(--clr-secondary);    
+    color: var(--clr-white);
+}
+
+.team{
+    padding: 48px;
+    background-color: var(--clr-white);   
+    border: 1px solid var(--clr-border);   
+    color: var(--clr-secondary);
+    height: 516px;
+}
+
+
 .img_content{
     display: flex;
     flex-direction: column;
@@ -147,8 +166,15 @@ body{
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap:16px;
+    width: 215px;
+    height: 208px;
 }
+
+.short{
+    height: 184px;
+}
+
+
 .features_content>ul>li{
     display: flex;
     gap: 10px;
@@ -158,14 +184,37 @@ body{
     opacity: 0.35;
 }
 
-.boton-free{
+.boton{
     width: 100%;
-    height: 40px;
-    border: 1px solid var(--clr-primary);
-    background-color: var(--clr-white);
-    color: var(--clr-secondary);
+    height: 40px;    
     font-family: var(--ff-text);
     font-weight: 500;
     border-radius: 8px;
     cursor: pointer;
+}
+.btn-free{
+    border: 1px solid var(--clr-primary);
+    background-color: var(--clr-white);
+    color: var(--clr-secondary);
+}
+
+.btn-pro{    
+    color: var(--clr-white);
+    background-color: var(--clr-secondary);
+}
+
+.btn-team{    
+    color: var(--clr-white);
+    background-color: var(--clr-primary);
+    border: none;
+}
+
+.white>svg>path{
+    fill: var(--clr-white);
+}
+.gap-2{
+    gap: 12px;
+}
+.gap-1{
+    gap: 16px;
 }
