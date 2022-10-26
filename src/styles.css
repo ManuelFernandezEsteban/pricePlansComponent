@@ -162,6 +162,10 @@ body{
     color: var(--clr-ligth);
 }
 
+.light{
+    color: var(--clr-ligth);
+}
+
 .features_content>ul{
     list-style-type: none;
     display: flex;
