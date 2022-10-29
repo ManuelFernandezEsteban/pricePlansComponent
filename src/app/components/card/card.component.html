@@ -1,5 +1,5 @@
-<div class="card" [ngClass]="type">
-  <app-image-card imageUrl="../assets/images/image-free.png">
+<div class="card" [ngClass]="card.type">
+  <app-image-card [imageUrl]="card.image">
   </app-image-card>
 
   <app-price-card [price]="price" [light]="light">

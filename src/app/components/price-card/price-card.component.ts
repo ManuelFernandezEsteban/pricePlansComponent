@@ -11,7 +11,9 @@ export class PriceCardComponent implements OnInit {
   @Input() price:Price={name:'',price:0};
   @Input() light:string='';
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }

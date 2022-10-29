@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Price } from '../../interfaces/price';
-import { Feature } from '../../interfaces/feature';
+import { Feature, Card } from '../../interfaces/cards';
 
 @Component({
   selector: 'app-card',
@@ -9,20 +9,34 @@ import { Feature } from '../../interfaces/feature';
 })
 export class CardComponent implements OnInit {
 
-  
-
-  @Input() type:string='';
-  price:Price={
-    name:'Starter',
-    price:49
+  @Input() card:Card={
+    type: '', 
+    price: 0, 
+    features: [],
+    image: ''
   };
+
+  price:Price={
+    name: '',
+    price: 0
+  };
+  
   light:string='';
   features:Feature[]=[];
   gap:string='gap-2'
 
-  constructor() { }
+  constructor() { 
+   
+  }
 
   ngOnInit(): void {
+    this.price={name:this.card.type,price:this.card.price};
+    this.features=this.card.features;
+    if (this.card.type==='Pro'){
+      this.light='';
+    }else{
+      this.light='light';
+    }    
   }
 
 }

@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Feature } from '../../interfaces/feature';
+import { Feature } from '../../interfaces/cards';
+
 
 @Component({
   selector: 'app-features-card',
