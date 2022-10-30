@@ -11,6 +11,7 @@ export class FeaturesCardComponent implements OnInit {
 
   @Input() features:Feature[]=[];
   @Input() gap:string='';
+  @Input() colorIcon='';
   constructor() { }
 
   ngOnInit(): void {

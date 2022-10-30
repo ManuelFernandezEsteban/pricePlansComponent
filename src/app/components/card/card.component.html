@@ -7,14 +7,14 @@
   </app-price-card>
 
 
-<app-features-card [features]="features" [gap]="gap">
+<app-features-card [features]="features" [gap]="gap" [colorIcon]="colorIcon">
 
 </app-features-card>
 
 
 
 
-  <button class="boton btn-free">Get Started</button>
+  <button [ngClass]="'boton'+' '+typeBoton " (click)="pedirMail()">Get Started</button>
 
 </div>
 

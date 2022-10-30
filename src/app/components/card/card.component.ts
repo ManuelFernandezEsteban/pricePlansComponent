@@ -23,7 +23,9 @@ export class CardComponent implements OnInit {
   
   light:string='';
   features:Feature[]=[];
-  gap:string='gap-2'
+  gap:string=''
+  colorIcon:string='';
+  typeBoton:string='';
 
   constructor() { 
    
@@ -34,9 +36,23 @@ export class CardComponent implements OnInit {
     this.features=this.plain.features;
     if (this.plain.type==='Pro'){
       this.light='';
-    }else{
+      this.gap='gap-1';
+      this.colorIcon='white';
+      this.typeBoton='btn-pro';
+    }else if (this.plain.type==='Teams'){
+      this.gap='gap-2';
       this.light='light';
-    }    
+      this.typeBoton='btn-team';
+    }else{
+      this.gap='gap-1';
+      this.light='light';
+      this.typeBoton='btn-free'
+    }  
+
+  }
+
+  pedirMail(){
+    
   }
 
 }

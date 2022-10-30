@@ -12,10 +12,11 @@ export class FeatureCardComponent implements OnInit {
     feature: '',
     isEnabled: false
   }
-
+  @Input() colorIcon:string='';
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

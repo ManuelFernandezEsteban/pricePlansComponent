@@ -3,7 +3,11 @@
 
     <li *ngFor="let feature of features">
 
-      <app-feature-card [feature]="feature"></app-feature-card>
+      <app-feature-card 
+      class="feature" 
+      [feature]="feature" 
+      [colorIcon]="colorIcon">
+    </app-feature-card>
     </li>
 
   </ul>
