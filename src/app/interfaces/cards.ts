@@ -1,8 +1,8 @@
-export interface Cards {
-    cards: Card[];
+export interface Plains {
+    plains: Plain[];
 }
 
-export interface Card {
+export interface Plain {
     type:     string;
     price:    number;
     image:string;

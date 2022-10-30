@@ -26,8 +26,7 @@ import { PipePricePipe } from './pipes/pipe-price.pipe';
     HttpClientModule
   ],exports:[
     CardsComponent,
-    PipePricePipe
-    
+    PipePricePipe    
   ]
 })
 export class ComponentsModule { }
