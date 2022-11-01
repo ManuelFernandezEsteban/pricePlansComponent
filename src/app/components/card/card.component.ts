@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Price } from '../../interfaces/price';
 import { Feature, Plain } from '../../interfaces/cards';
 
@@ -8,6 +8,8 @@ import { Feature, Plain } from '../../interfaces/cards';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
+
+  @Output() pedirEmailModal = new EventEmitter<boolean>();
 
   @Input() plain:Plain={
     type: '', 
@@ -52,6 +54,8 @@ export class CardComponent implements OnInit {
   }
 
   pedirMail(){
+    
+    this.pedirEmailModal.emit(true);
     
   }
 

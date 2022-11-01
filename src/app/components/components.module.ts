@@ -8,6 +8,7 @@ import { FeaturesCardComponent } from './features-card/features-card.component';
 import { FeatureCardComponent } from './feature-card/feature-card.component';
 import { CardsComponent } from './cards/cards.component';
 import { PipePricePipe } from './pipes/pipe-price.pipe';
+import { ModalMailComponent } from './modal-mail/modal-mail.component';
 
 
 
@@ -19,7 +20,8 @@ import { PipePricePipe } from './pipes/pipe-price.pipe';
     FeaturesCardComponent,
     FeatureCardComponent,
     CardsComponent,
-    PipePricePipe
+    PipePricePipe,
+    ModalMailComponent
   ],
   imports: [
     CommonModule,
