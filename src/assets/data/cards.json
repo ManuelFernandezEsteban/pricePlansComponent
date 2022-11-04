@@ -1,0 +1,109 @@
+{
+    "plains":[
+        {
+            "type":"Starter",
+            "price":0,
+            "image":"../assets/images/image-free.png",
+            "features":[
+                {
+                    "feature":"Full courses library",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"A new daily meditation",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Access to the meditation guru",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Sleep podcasts and exercises",
+                    "isEnabled":false
+                },
+                {
+                    "feature":"Mindfulness exercises",
+                    "isEnabled":false
+                },
+                {
+                    "feature":"Guided meditations",
+                    "isEnabled":false
+                },
+                {
+                    "feature":"Cooking recipes",
+                    "isEnabled":false
+                }
+            ]
+        },
+        {
+            "type":"Pro",
+            "price":49,
+            "image":"../assets/images/image-pro.png",
+            "features":[
+                {
+                    "feature":"Full courses library",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"A new daily meditation",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Access to the meditation guru",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Sleep podcasts and exercises",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Mindfulness exercises",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Guided meditations",
+                    "isEnabled":false
+                },
+                {
+                    "feature":"Cooking recipes",
+                    "isEnabled":false
+                }
+            ]
+        },
+        {
+            "type":"Teams",
+            "price":99,
+            "image":"../assets/images/Team-Images.png",
+            "features":[
+                {
+                    "feature":"Full courses library",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"A new daily meditation",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Access to the meditation guru",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Sleep podcasts and exercises",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Mindfulness exercises",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Guided meditations",
+                    "isEnabled":true
+                },
+                {
+                    "feature":"Cooking recipes",
+                    "isEnabled":true
+                }
+            ]
+        }
+    ]
+}

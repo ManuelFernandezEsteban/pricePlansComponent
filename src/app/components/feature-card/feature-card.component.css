@@ -1,0 +1,9 @@
+.white>svg>path{
+    fill: var(--clr-white);
+}
+
+
+
+.disabled{
+    opacity: 0.35;
+}

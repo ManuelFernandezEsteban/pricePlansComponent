@@ -1,0 +1,12 @@
+
+.features_content>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 215px;    
+}
+
+.feature{
+    display: flex;
+    gap: 10px;
+}

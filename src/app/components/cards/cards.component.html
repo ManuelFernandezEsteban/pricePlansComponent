@@ -1,0 +1,11 @@
+<ng-container *ngFor="let plain of plains">
+    <app-card class="card" [plain]="plain" (pedirEmailModal)="mostrarModal($event)">
+
+    </app-card>
+</ng-container>
+
+<ng-container *ngIf="pedirMail">
+
+    <app-modal-mail></app-modal-mail>
+
+</ng-container>

@@ -1,0 +1,28 @@
+<div class="overlay">
+    <div class="modal-mail">
+        <form [formGroup]="mailContactoForm" class="boxForm">
+            <h2>
+                Contacto
+            </h2>
+            <label for="mail">Dejanos tu mail para contactar contigo</label>
+            <input type="email" name="email" id="mailInput" formControlName="mailContacto" [ngClass]="invalidEmail()">
+            <ng-container *ngIf="!mailCorrecto">
+                <p>Por favor necesitamos un mail válido</p>
+            </ng-container>
+            <ng-container *ngIf="mostrarSalida">
+                <p>Perfecto en breve recibiras un mail con las instrucciones a seguir</p>
+            </ng-container>
+
+            <div class="box-buttons" *ngIf="!mostrarSalida">
+                <button class="boton btn-team" (click)="enviarMail()">Enviar</button>
+                <button class="boton btn-free" (click)="cerrarModalCancelar()">Cancelar</button>
+            </div>
+            <div class="box-buttons" *ngIf="mostrarSalida">
+
+                <button class="boton btn-free" (click)="cerrarModalCancelar()">Cerrar</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>

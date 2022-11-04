@@ -1,0 +1,14 @@
+<div class="features_content">
+  <ul [ngClass]="gap">
+
+    <li *ngFor="let feature of features">
+
+      <app-feature-card 
+      class="feature" 
+      [feature]="feature" 
+      [colorIcon]="colorIcon">
+    </app-feature-card>
+    </li>
+
+  </ul>
+</div>

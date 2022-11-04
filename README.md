@@ -1,3 +1,49 @@
+# Jump2Digital 2022 | Frontend
+
+Esta es una solución al resto propuesto de un visualizador de planes de precio.
+
+## Tabla de contenidos
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+
+
+
+## Overview
+
+### El reto
+
+- Los usuarios pueden ver el diseño en desktop y movil.
+- Al clicar el botón aparece un cuadro de dialogo que nos pide un email y pronto se pondrán en contacto con nosotros.
+
+### Pantallas
+
+![Desktop ](./screenshots/ScreenshotDesktopPricePlansComponent.png)
+![Desktop Modal](./screenshots/ScreenshotDesktopModalPricePlansComponent.png)
+![Movil ](./screenshots/ScreenshotMovilPricePlansComponent.png)
+![Movil Modal](./screenshots/ScreenshotDesktopModalPricePlansComponent.png)
+
+### Links
+
+- Solution URL: [Git hub](https://github.com/ManuelFernandezEsteban/pricePlansComponent.git)
+- Live Site URL: [Netlify](https://app.netlify.com/sites/pricecomponentjp/settings/general)
+
+### Built with
+
+- Angular
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+## Author
+
+- linkedIn - [LinkedIn](www.linkedin.com/in/manuel-fernandez-esteban)
+
 # PricePlansComponent
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
@@ -25,3 +71,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+

@@ -1,0 +1,20 @@
+<div class="card" [ngClass]="plain.type">
+  <app-image-card [imageUrl]="plain.image">
+  </app-image-card>
+
+  <app-price-card [price]="price" [light]="light">
+
+  </app-price-card>
+
+
+<app-features-card [features]="features" [gap]="gap" [colorIcon]="colorIcon">
+
+</app-features-card>
+
+
+
+
+  <button [ngClass]="'boton'+' '+typeBoton " (click)="pedirMail(plain.type)">Get Started</button>
+
+</div>
+
