@@ -26,7 +26,7 @@ Esta es una solución al resto propuesto de un visualizador de planes de precio.
 ![Desktop ](./screenshots/ScreenshotDesktopPricePlansComponent.png)
 ![Desktop Modal](./screenshots/ScreenshotDesktopModalPricePlansComponent.png)
 ![Movil ](./screenshots/ScreenshotMovilPricePlansComponent.png)
-![Movil Modal](./screenshots/ScreenshotDesktopModalPricePlansComponent.png)
+![Movil Modal](./screenshots/ScreenshotMovilModalPricePlansComponent.png)
 
 ### Links
 
