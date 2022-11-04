@@ -31,6 +31,7 @@
     box-shadow: 4px 9px 26px -7px rgba(0,0,0,0.62);
 }
 .boxForm{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -52,8 +53,7 @@
     border: 1px solid var(--clr-error);
 }
 
-.invalid{
-    
+.invalid{    
     color: var(--clr-error);
 }
 
@@ -62,5 +62,13 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
+    gap: 20px;
+}
+
+@media (max-width:1044px){
+    .modal-mail{
+        width: 90%;
+    }
+
 }

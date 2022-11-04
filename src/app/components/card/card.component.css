@@ -28,3 +28,10 @@
     color: var(--clr-secondary);
     height: 516px;
 }
+@media (max-width:1044px){
+
+    .card{
+        width: 100%;
+        align-self: center;
+    }
+}

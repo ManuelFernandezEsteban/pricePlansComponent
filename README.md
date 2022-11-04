@@ -25,11 +25,13 @@ Esta es una solución al resto propuesto de un visualizador de planes de precio.
 
 ![Desktop ](./screenshots/ScreenshotDesktopPricePlansComponent.png)
 ![Desktop Modal](./screenshots/ScreenshotDesktopModalPricePlansComponent.png)
+![Movil ](./screenshots/ScreenshotMovilPricePlansComponent.png)
+![Movil Modal](./screenshots/ScreenshotDesktopModalPricePlansComponent.png)
 
 ### Links
 
-- Solution URL: [Git hub](https://github.com/ManuelFernandezEsteban/expensesChartComponent.git)
-- Live Site URL: [Netlify](https://chart-expenses-component.netlify.app/)
+- Solution URL: [Git hub](https://github.com/ManuelFernandezEsteban/pricePlansComponent.git)
+- Live Site URL: [Netlify](https://app.netlify.com/sites/pricecomponentjp/settings/general)
 
 ### Built with
 
