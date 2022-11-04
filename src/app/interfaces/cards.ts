@@ -13,3 +13,8 @@ export interface Feature {
     feature:   string;
     isEnabled: boolean;
 }
+
+export interface MailPlain{
+    mail:string;
+    type:string;
+}

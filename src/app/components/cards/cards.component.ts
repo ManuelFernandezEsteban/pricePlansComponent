@@ -36,9 +36,12 @@ export class CardsComponent implements OnInit {
     this.mailModal.modalMail.subscribe(resp=>{
       this.pedirMail=resp;
     })
+
+    this.mailModal.mailEnviado.subscribe(resp=>{
+      console.log(resp);//obtenemos la respuesta del modal
+    })
   }
   mostrarModal(event: any){
     this.pedirMail=event
-
   }
 }

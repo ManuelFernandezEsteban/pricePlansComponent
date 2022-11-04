@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Price } from '../../interfaces/price';
 import { Feature, Plain } from '../../interfaces/cards';
+import { ModalMailService } from '../../services/modal-mail.service';
 
 @Component({
   selector: 'app-card',
@@ -29,7 +30,7 @@ export class CardComponent implements OnInit {
   colorIcon:string='';
   typeBoton:string='';
 
-  constructor() { 
+  constructor(public modalMailService:ModalMailService) { 
    
   }
 
@@ -53,8 +54,8 @@ export class CardComponent implements OnInit {
 
   }
 
-  pedirMail(){
-    
+  pedirMail(typePlain:string){
+    this.modalMailService.typePlain=typePlain; //guardo el tipo de suscripción
     this.pedirEmailModal.emit(true);
     
   }

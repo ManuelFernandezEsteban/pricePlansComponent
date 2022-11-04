@@ -17,6 +17,7 @@
     --clr-white: #FFFFFF;
     --clr-border: #DAE9EF;
     --clr-ligth:#5F6974;
+    --clr-error:red;
 }
 
 * {
@@ -47,95 +48,6 @@ h2{
     font-weight: 700;
 }
 
-app-root{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-cards{
-    min-width: 1045px;
-    min-height: 684px;
-    background-color: #E5E5E5;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-}
-.card{
-    display: flex;
-    flex-direction: column;    
-    border-radius: 8px;
-    gap: 16px;
-    
-}
-.Starter{
-    padding: 16px;      
-    background-color: var(--clr-white);   
-    border: 1px solid var(--clr-border);  
-    color: var(--clr-secondary);  
-}
-.Pro{
-    padding: 40px;
-    background-color: var(--clr-primary);   
-    border: 2px solid var(--clr-secondary);    
-    color: var(--clr-white);
-}
-
-.Teams{
-    padding: 48px;
-    background-color: var(--clr-white);   
-    border: 1px solid var(--clr-border);   
-    color: var(--clr-secondary);
-    height: 516px;
-}
-
-.img_content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.price_content{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-.price_content_type{
-    font-size: 12px;   
-}
-.price_content_price{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28.44px;
-}
-.price_content_time{
-    font-size: 12px; 
-    color: var(--clr-ligth);
-}
-.light{
-    color: var(--clr-ligth);
-}
-
-.features_content>ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    width: 215px;    
-}
-
-.feature{
-    display: flex;
-    gap: 10px;
-}
-
-.disabled{
-    opacity: 0.35;
-}
 
 .boton{
     width: 100%;
@@ -163,51 +75,16 @@ app-root{
     
 }
 
-.white>svg>path{
-    fill: var(--clr-white);
+
+.light{
+    color: var(--clr-ligth);
 }
+
+
 .gap-2{
     gap: 12px;
 }
 .gap-1{
     gap: 16px;
 }
-.modal-mail{
-    max-width: 350px;
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: var(--clr-white);
-    border-radius: 8px;
-}
-#mailInput{
-    width: 100%;
-    border-radius: 4px;
-    padding: 8px;
-    border: 1px solid var(--clr-primary);
-}
 
-#mailInput:active{
-    border: 1px solid var(--clr-ligth);
-}
-
-.box-buttons{
-    align-self: center;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-@media (max-width:1044px){
-
-    .container-cards{        
-        padding-top: 100px;
-        padding-bottom: 100px;
-        flex-direction: column;
-        justify-content: flex-start;       
-    }
-    
-}

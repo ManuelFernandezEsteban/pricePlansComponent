@@ -9,6 +9,7 @@ import { FeatureCardComponent } from './feature-card/feature-card.component';
 import { CardsComponent } from './cards/cards.component';
 import { PipePricePipe } from './pipes/pipe-price.pipe';
 import { ModalMailComponent } from './modal-mail/modal-mail.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -25,7 +26,8 @@ import { ModalMailComponent } from './modal-mail/modal-mail.component';
   ],
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],exports:[
     CardsComponent,
     PipePricePipe    
