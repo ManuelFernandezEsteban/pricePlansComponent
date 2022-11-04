@@ -6,17 +6,13 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class PipePricePipe implements PipeTransform {
 
   transform(value: number): string {
-    switch (value) {
-      case 49:
-        return '49 €';       
-        
-        case 99:
-        return '99 €';
-        
-        default :
-        return 'Free';
-        
+
+    if (value===0){
+      return 'Free';
+    }else{
+      return `${value} €`
     }
+
   }
 
 }
