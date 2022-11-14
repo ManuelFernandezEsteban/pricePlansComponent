@@ -31,7 +31,7 @@ Esta es una solución al resto propuesto de un visualizador de planes de precio.
 ### Links
 
 - Solution URL: [Git hub](https://github.com/ManuelFernandezEsteban/pricePlansComponent.git)
-- Live Site URL: [Netlify](https://app.netlify.com/sites/pricecomponentjp/settings/general)
+- Live Site URL: [Netlify](https://pricecomponentjp.netlify.app/)
 
 ### Built with
 
